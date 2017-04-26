@@ -1,0 +1,68 @@
+*********************
+* PAGE 02 - CODE 01 *
+*********************
+
+module my_2_to_1_mux (input A, B, S, output Z);
+
+    assign Z = S ? B : A; // assign B to Z if S = 1 or assign A to Z if S = 0;
+
+endmodule
+
+
+*********************
+* PAGE 03 - CODE 02 *
+*********************
+
+module blinky (input CLOCK, output LED);
+
+    assign LED = CLOCK;
+
+endmodule
+
+
+*********************
+* PAGE 03 - CODE 03 *
+*********************
+
+`timescale 1ns / 1ps
+
+module test_blinky( );
+
+    reg CLOCK; wire LED; 
+    
+    blinky dut (CLOCK, LED); 
+    
+    initial begin 
+        CLOCK = 0; 
+    end 
+    
+    always begin 
+        #5 CLOCK = ~CLOCK; // The value of CLOCK is inverted every 5 units of time
+    end
+
+endmodule
+
+
+*********************
+* PAGE 05 - CODE 04 *
+*********************
+
+module slow_blinky_module (input CLOCK);
+
+    reg [3:0] COUNT = 4'b0000;
+    
+    always @ (posedge CLOCK) begin 
+        COUNT <= COUNT + 1;
+    end
+
+endmodule
+
+
+*********************
+* PAGE 06 - CODE 05 *
+*********************
+
+    always @ (posedge CLOCK) begin 
+        COUNT <= COUNT + 1;
+        LED <= ( COUNT == 4'b0000 ) ? ~LED : LED ;
+    end
