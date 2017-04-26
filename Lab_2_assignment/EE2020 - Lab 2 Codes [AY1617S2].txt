@@ -1,0 +1,43 @@
+----- ANSI ENCODING -----
+
+*********************
+* PAGE 02 - CODE 01 *
+*********************
+
+module my_full_adder(input A, B, CIN, output S, COUT);
+
+    assign S = 
+    assign COUT = 
+
+endmodule
+
+
+*********************
+* PAGE 03 - CODE 02 *
+*********************
+
+module my_2_bit_adder(input [1:0] A, input [1:0] B, input C0,
+                      output [1:0] S, output C2);
+
+    wire C1;
+    
+    my_full_adder fa0 (A[0], B[0], C0, S[0], C1);
+    my_full_adder fa1 (A[1], B[1], C1, S[1], C2);
+
+endmodule
+
+
+*********************
+* PAGE 04 - CODE 03 *
+*********************
+
+//The port size should be indicated when declaring the signals. Inputs to the dut 
+//are declared using reg, whereas outputs from the dut are declared using wire:
+ 
+reg [3:0] A; wire [3:0] S;
+
+//The parameters for the dut do not need the port size of the signals:
+my_4_bit_adder dut (A, B, CARRY_IN, S, CARRY_OUT);
+
+//The testbench stimuli for multi-bit vector ports can be written as: 
+A = 4’b0011; B = 4’b0011; CARRY_IN = 1’b0;
