@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1488704470">
+  <File Type="ROUTE-STATUS-PB" Name="my_ledarr_route_status.pb"/>
+  <File Type="PA-TCL" Name="my_ledarr.tcl"/>
+  <File Type="OPT-DCP" Name="my_ledarr_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="my_ledarr_timing_summary_init.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="my_ledarr_methodology_drc_opted.rpt"/>
+  <File Type="RDI-RDI" Name="my_ledarr.vdi"/>
+  <File Type="PWROPT-DRC" Name="my_ledarr_drc_pwropted.rpt"/>
+  <File Type="OPT-DRC" Name="my_ledarr_drc_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="my_ledarr_pwropt.dcp"/>
+  <File Type="OPT-HWDEF" Name="my_ledarr.hwdef"/>
+  <File Type="OPT-TIMING" Name="my_ledarr_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="my_ledarr_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="my_ledarr_placed.dcp"/>
+  <File Type="PLACE-IO" Name="my_ledarr_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="my_ledarr_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="my_ledarr_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="my_ledarr_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="my_ledarr_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="my_ledarr_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="my_ledarr_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="my_ledarr_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="my_ledarr_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="my_ledarr_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="my_ledarr_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="my_ledarr_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="my_ledarr_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-DCP" Name="my_ledarr_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="my_ledarr_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="my_ledarr_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="my_ledarr_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="my_ledarr_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="my_ledarr_methodology_drc_routed.pb"/>
+  <File Type="BG-BIT" Name="my_ledarr.bit"/>
+  <File Type="ROUTE-PWR" Name="my_ledarr_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="my_ledarr_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="my_ledarr_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="my_ledarr_route_status.rpt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="my_ledarr_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="my_ledarr_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="my_ledarr_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="my_ledarr_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="my_ledarr_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="my_ledarr_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="my_ledarr_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="my_ledarr_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="my_ledarr_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="my_ledarr_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIN" Name="my_ledarr.bin"/>
+  <File Type="BITSTR-MSK" Name="my_ledarr.msk"/>
+  <File Type="BITSTR-RBT" Name="my_ledarr.rbt"/>
+  <File Type="BITSTR-NKY" Name="my_ledarr.nky"/>
+  <File Type="BITSTR-BMM" Name="my_ledarr_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="my_ledarr.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="my_ledarr.sysdef"/>
+  <File Type="BG-BGN" Name="my_ledarr.bgn"/>
+  <File Type="BG-DRC" Name="my_ledarr.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/my_dff.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/slowclock.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/my_singlepulse.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/my_ledarr.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="my_ledarr"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/MyWork/Basys3_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Basys3_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1488353729"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

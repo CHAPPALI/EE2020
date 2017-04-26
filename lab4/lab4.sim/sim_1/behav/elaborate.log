@@ -1,0 +1,17 @@
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto a40d6722aa33447492f5b354659427b7 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ledarrsim_behav xil_defaultlib.ledarrsim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.slowclock
+Compiling module xil_defaultlib.my_dff
+Compiling module xil_defaultlib.my_singlepulse
+Compiling module xil_defaultlib.my_ledarr
+Compiling module xil_defaultlib.ledarrsim
+WARNING: [XSIM 43-3368] "C:/Users/Administrator.UER-PC/OneDrive - National University of Singapore/Vivado/lab4/lab4.srcs/sim_1/new/ledarrsim.v" Line 42. Negative delay (-1394967296000.000000) treated as 0.
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ledarrsim_behav
