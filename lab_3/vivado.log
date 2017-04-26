@@ -1,0 +1,286 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu Feb 23 11:35:36 2017
+# Process ID: 3568
+# Current directory: C:/Users/Administrator.UER-PC/Documents/Vivado/lab_3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6684 C:\Users\Administrator.UER-PC\Documents\Vivado\lab_3\lab_3.xpr
+# Log file: C:/Users/Administrator.UER-PC/Documents/Vivado/lab_3/vivado.log
+# Journal file: C:/Users/Administrator.UER-PC/Documents/Vivado/lab_3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Administrator.UER-PC/Documents/Vivado/lab_3/lab_3.xpr
+INFO: [Project 1-313] Project file moved from 'F:/Vivado/lab_3' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:18 . Memory (MB): peak = 696.824 ; gain = 84.742
+update_compile_order -fileset sources_1
+close_project
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Administrator.UER-PC/Documents/Vivado/lab_3/lab_3.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu Feb 23 11:38:35 2017...
+open_project {C:/Users/Administrator.UER-PC/Documents/Vivado/Ripple_carry adder/Ripple_carry adder.xpr}
+INFO: [Project 1-313] Project file moved from 'D:/DEL/EE2020/Ripple_carry adder' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+update_compile_order -fileset sources_1
+close_project
+close_project: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 721.129 ; gain = 0.000
+open_project C:/Users/Administrator.UER-PC/Documents/Vivado/half_adder_1/half_adder_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 750.316 ; gain = 29.188
+update_compile_order -fileset sources_1
+remove_files -fileset sim_1 C:/Users/Administrator.UER-PC/Documents/Vivado/half_adder_1/half_adder_1.srcs/sim_1/new/my_full_adder.v
+close_project
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Administrator.UER-PC/Documents/Vivado/half_adder_1/half_adder_1.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu Feb 23 11:48:30 2017...
+create_project Full_subtractor C:/Users/Administrator.UER-PC/Documents/Vivado/Full_subtractor -part xc7a35tcpg236-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+file mkdir C:/Users/Administrator.UER-PC/Documents/Vivado/Full_subtractor/Full_subtractor.srcs/sources_1/new
+close [ open C:/Users/Administrator.UER-PC/Documents/Vivado/Full_subtractor/Full_subtractor.srcs/sources_1/new/full_subtract.v w ]
+add_files C:/Users/Administrator.UER-PC/Documents/Vivado/Full_subtractor/Full_subtractor.srcs/sources_1/new/full_subtract.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+close_project
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Administrator.UER-PC/Documents/Vivado/Full_subtractor/Full_subtractor.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu Feb 23 11:55:03 2017...
+open_project C:/Users/Administrator.UER-PC/Documents/Vivado/half_adder_1/half_adder_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/Administrator.UER-PC/Documents/Vivado/Lab_2/Lab_2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+update_compile_order -fileset sources_1
+close_project
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Administrator.UER-PC/Documents/Vivado/Lab_2/Lab_2.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu Feb 23 11:56:49 2017...
+open_project {C:/Users/Administrator.UER-PC/OneDrive - National University of Singapore/Vivado/Lab_2/Lab_2.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/Administrator.UER-PC/OneDrive - National University of Singapore/Vivado/Lab_2'
+INFO: [Project 1-313] Project file moved from 'C:/Users/Administrator.UER-PC/Documents/Vivado/Lab_2' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/Administrator.UER-PC/Documents/Vivado/Full_subtractor/Full_subtractor.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: full_subtract
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:01:38 ; elapsed = 00:28:08 . Memory (MB): peak = 851.625 ; gain = 644.566
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'full_subtract' [C:/Users/Administrator.UER-PC/Documents/Vivado/Full_subtractor/Full_subtractor.srcs/sources_1/new/full_subtract.v:23]
+WARNING: [Synth 8-3848] Net DIFF in module/entity full_subtract does not have driver. [C:/Users/Administrator.UER-PC/Documents/Vivado/Full_subtractor/Full_subtractor.srcs/sources_1/new/full_subtract.v:28]
+INFO: [Synth 8-256] done synthesizing module 'full_subtract' (1#1) [C:/Users/Administrator.UER-PC/Documents/Vivado/Full_subtractor/Full_subtractor.srcs/sources_1/new/full_subtract.v:23]
+WARNING: [Synth 8-3331] design full_subtract has unconnected port DIFF
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:01:39 ; elapsed = 00:28:09 . Memory (MB): peak = 869.262 ; gain = 662.203
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:39 ; elapsed = 00:28:09 . Memory (MB): peak = 869.262 ; gain = 662.203
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:01:47 ; elapsed = 00:28:22 . Memory (MB): peak = 1130.348 ; gain = 923.289
+6 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 1130.348 ; gain = 326.336
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:01:58 ; elapsed = 00:30:05 . Memory (MB): peak = 1144.707 ; gain = 937.648
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'full_subtract' [C:/Users/Administrator.UER-PC/Documents/Vivado/Full_subtractor/Full_subtractor.srcs/sources_1/new/full_subtract.v:23]
+INFO: [Synth 8-256] done synthesizing module 'full_subtract' (1#1) [C:/Users/Administrator.UER-PC/Documents/Vivado/Full_subtractor/Full_subtractor.srcs/sources_1/new/full_subtract.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:01:59 ; elapsed = 00:30:06 . Memory (MB): peak = 1162.039 ; gain = 954.980
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:59 ; elapsed = 00:30:06 . Memory (MB): peak = 1162.039 ; gain = 954.980
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 1162.039 ; gain = 17.332
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:02:09 ; elapsed = 00:31:02 . Memory (MB): peak = 1162.688 ; gain = 955.629
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'full_subtract' [C:/Users/Administrator.UER-PC/Documents/Vivado/Full_subtractor/Full_subtractor.srcs/sources_1/new/full_subtract.v:23]
+INFO: [Synth 8-256] done synthesizing module 'full_subtract' (1#1) [C:/Users/Administrator.UER-PC/Documents/Vivado/Full_subtractor/Full_subtractor.srcs/sources_1/new/full_subtract.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:02:10 ; elapsed = 00:31:02 . Memory (MB): peak = 1168.621 ; gain = 961.563
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:02:10 ; elapsed = 00:31:02 . Memory (MB): peak = 1168.621 ; gain = 961.563
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1171.996 ; gain = 9.957
+close [ open C:/Users/Administrator.UER-PC/Documents/Vivado/Full_subtractor/Full_subtractor.srcs/sources_1/new/full_subtractor.v w ]
+add_files C:/Users/Administrator.UER-PC/Documents/Vivado/Full_subtractor/Full_subtractor.srcs/sources_1/new/full_subtractor.v
+update_compile_order -fileset sources_1
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:02:29 ; elapsed = 00:40:18 . Memory (MB): peak = 1171.996 ; gain = 964.938
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'full_subtract' [C:/Users/Administrator.UER-PC/Documents/Vivado/Full_subtractor/Full_subtractor.srcs/sources_1/new/full_subtract.v:23]
+INFO: [Synth 8-256] done synthesizing module 'full_subtract' (1#1) [C:/Users/Administrator.UER-PC/Documents/Vivado/Full_subtractor/Full_subtractor.srcs/sources_1/new/full_subtract.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:02:29 ; elapsed = 00:40:18 . Memory (MB): peak = 1177.996 ; gain = 970.938
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:02:29 ; elapsed = 00:40:18 . Memory (MB): peak = 1177.996 ; gain = 970.938
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 1191.180 ; gain = 19.184
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+refresh_design
+ERROR: [Synth 8-988] fa0 is already declared [C:/Users/Administrator.UER-PC/Documents/Vivado/Full_subtractor/Full_subtractor.srcs/sources_1/new/full_subtractor.v:32]
+ERROR: [Synth 8-988] fa0 is already declared [C:/Users/Administrator.UER-PC/Documents/Vivado/Full_subtractor/Full_subtractor.srcs/sources_1/new/full_subtractor.v:33]
+ERROR: [Synth 8-988] fa0 is already declared [C:/Users/Administrator.UER-PC/Documents/Vivado/Full_subtractor/Full_subtractor.srcs/sources_1/new/full_subtractor.v:34]
+INFO: [Synth 8-2350] module full_subtractor ignored due to previous errors [C:/Users/Administrator.UER-PC/Documents/Vivado/Full_subtractor/Full_subtractor.srcs/sources_1/new/full_subtractor.v:23]
+Failed to read verilog 'C:/Users/Administrator.UER-PC/Documents/Vivado/Full_subtractor/Full_subtractor.srcs/sources_1/new/full_subtractor.v'
+ERROR: [Common 17-39] 'refresh_design' failed due to earlier errors.
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:02:52 ; elapsed = 00:46:26 . Memory (MB): peak = 1191.180 ; gain = 984.121
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'full_subtractor' [C:/Users/Administrator.UER-PC/Documents/Vivado/Full_subtractor/Full_subtractor.srcs/sources_1/new/full_subtractor.v:23]
+INFO: [Synth 8-638] synthesizing module 'full_subtract' [C:/Users/Administrator.UER-PC/Documents/Vivado/Full_subtractor/Full_subtractor.srcs/sources_1/new/full_subtract.v:23]
+INFO: [Synth 8-256] done synthesizing module 'full_subtract' (1#1) [C:/Users/Administrator.UER-PC/Documents/Vivado/Full_subtractor/Full_subtractor.srcs/sources_1/new/full_subtract.v:23]
+INFO: [Synth 8-256] done synthesizing module 'full_subtractor' (2#1) [C:/Users/Administrator.UER-PC/Documents/Vivado/Full_subtractor/Full_subtractor.srcs/sources_1/new/full_subtractor.v:23]
+WARNING: [Synth 8-3331] design full_subtractor has unconnected port D[4]
+WARNING: [Synth 8-3331] design full_subtractor has unconnected port A[4]
+WARNING: [Synth 8-3331] design full_subtractor has unconnected port B[4]
+WARNING: [Synth 8-3331] design full_subtractor has unconnected port B[3]
+WARNING: [Synth 8-3331] design full_subtractor has unconnected port B[2]
+WARNING: [Synth 8-3331] design full_subtractor has unconnected port B[1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:02:53 ; elapsed = 00:46:26 . Memory (MB): peak = 1196.672 ; gain = 989.613
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:02:53 ; elapsed = 00:46:26 . Memory (MB): peak = 1196.672 ; gain = 989.613
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 1237.582 ; gain = 46.402
+save_project_as subtractor C:/Users/Administrator.UER-PC/Documents/Vivado/subtractor -force
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Feb 23 12:23:46 2017...

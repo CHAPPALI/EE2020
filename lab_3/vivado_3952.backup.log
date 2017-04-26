@@ -1,0 +1,76 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Feb 15 16:00:11 2017
+# Process ID: 3952
+# Current directory: F:/Vivado/lab_3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3504 F:\Vivado\lab_3\lab_3.xpr
+# Log file: F:/Vivado/lab_3/vivado.log
+# Journal file: F:/Vivado/lab_3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/Vivado/lab_3/lab_3.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 784.688 ; gain = 118.789
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: slow_blinky_module
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:24 ; elapsed = 00:02:50 . Memory (MB): peak = 838.664 ; gain = 631.863
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'slow_blinky_module' [F:/Vivado/lab_3/lab_3.srcs/sources_1/new/slow_blinky_module.v:23]
+INFO: [Synth 8-256] done synthesizing module 'slow_blinky_module' (1#1) [F:/Vivado/lab_3/lab_3.srcs/sources_1/new/slow_blinky_module.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:26 ; elapsed = 00:02:51 . Memory (MB): peak = 865.746 ; gain = 658.945
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:26 ; elapsed = 00:02:52 . Memory (MB): peak = 865.746 ; gain = 658.945
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [F:/Vivado/lab_3/lab_3.srcs/constrs_1/imports/MyWork/Basys3_Master.xdc]
+Finished Parsing XDC File [F:/Vivado/lab_3/lab_3.srcs/constrs_1/imports/MyWork/Basys3_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:34 ; elapsed = 00:03:05 . Memory (MB): peak = 1127.578 ; gain = 920.777
+6 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 1127.578 ; gain = 342.891
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+INFO: [Netlist 29-17] Analyzing 15 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [F:/Vivado/lab_3/lab_3.srcs/constrs_1/imports/MyWork/Basys3_Master.xdc]
+Finished Parsing XDC File [F:/Vivado/lab_3/lab_3.srcs/constrs_1/imports/MyWork/Basys3_Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Feb 15 16:04:26 2017...

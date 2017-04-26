@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Feb 15 15:50:05 2017
+# Process ID: 5064
+# Current directory: F:/Vivado/lab_3/lab_3.runs/synth_1
+# Command line: vivado.exe -log slow_blinky_module.vds -mode batch -messageDb vivado.pb -notrace -source slow_blinky_module.tcl
+# Log file: F:/Vivado/lab_3/lab_3.runs/synth_1/slow_blinky_module.vds
+# Journal file: F:/Vivado/lab_3/lab_3.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source slow_blinky_module.tcl -notrace

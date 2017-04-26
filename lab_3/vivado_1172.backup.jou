@@ -1,0 +1,78 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Feb 15 14:38:15 2017
+# Process ID: 1172
+# Current directory: F:/Vivado/lab_3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2528 F:\Vivado\lab_3\lab_3.xpr
+# Log file: F:/Vivado/lab_3/vivado.log
+# Journal file: F:/Vivado/lab_3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/Vivado/lab_3/lab_3.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source slow_blink_test.tcl
+add_wave {{/slow_blink_test/dut/COUNT}} 
+restart
+run 200 ns
+run all
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+close_sim
+launch_simulation
+source slow_blink_test.tcl
+close_sim
+launch_simulation
+source slow_blink_test.tcl
+add_wave {{/slow_blink_test/dut/COUNT}} 
+restart
+run 200 ns
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+save_wave_config {F:/Vivado/lab_3/slow_blink_test_behav.wcfg}
+add_files -fileset sim_1 -norecurse F:/Vivado/lab_3/slow_blink_test_behav.wcfg
+set_property xsim.view {F:/Vivado/lab_3/slow_blink_test_behav.wcfg F:/Vivado/lab_3/slow_blink_test_behav.wcfg} [get_filesets sim_1]
+close_sim
+launch_simulation
+launch_simulation
+open_wave_config F:/Vivado/lab_3/slow_blink_test_behav.wcfg
+source slow_blink_test.tcl
+close_sim
+launch_simulation
+open_wave_config F:/Vivado/lab_3/slow_blink_test_behav.wcfg
+source slow_blink_test.tcl
+close_sim
+launch_simulation
+open_wave_config F:/Vivado/lab_3/slow_blink_test_behav.wcfg
+source slow_blink_test.tcl
+add_wave {{/slow_blink_test/dut/COUNT}} 
+restart
+run all
+update_compile_order -fileset sources_1
+remove_files F:/Vivado/lab_3/lab_3.srcs/sources_1/new/blinky.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+save_wave_config {F:/Vivado/lab_3/slow_blink_test_behav.wcfg}
+remove_files -fileset constrs_1 F:/Vivado/lab_3/lab_3.srcs/constrs_1/new/blinky_constraints.xdc
+add_files -fileset constrs_1 -norecurse D:/MyWork/Basys3_Master.xdc
+import_files -fileset constrs_1 D:/MyWork/Basys3_Master.xdc
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {F:/Vivado/lab_3/lab_3.runs/impl_1/slow_blinky_module.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {F:/Vivado/lab_3/lab_3.runs/impl_1/slow_blinky_module.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+close_sim
